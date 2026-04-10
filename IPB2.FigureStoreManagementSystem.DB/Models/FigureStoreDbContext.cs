@@ -28,8 +28,17 @@ public partial class FigureStoreDbContext : DbContext
     public virtual DbSet<FsPayment> FsPayments { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=150.95.90.244;Database=PeterInPersonBatch2;User Id=sa;Password=sasa@123;TrustServerCertificate=True;");
+    {
+        if (optionsBuilder.IsConfigured)
+        {
+            return;
+        }
+
+        var connectionString = Environment.GetEnvironmentVariable("FIGURE_STORE_CONNECTION_STRING")
+            ?? "Server=150.95.90.244;Database=PeterInPersonBatch2;User Id=sa;Password=sasa@123;TrustServerCertificate=True;";
+
+        optionsBuilder.UseSqlServer(connectionString);
+    }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
