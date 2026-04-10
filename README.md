@@ -1,19 +1,19 @@
 # IPB2 Figure Store Management System
 
-Step-by-step version aligned to your request:
+This repository is now cleaned for **step-by-step development**.
 
-## Current step completed
+## Current Step (DONE)
 - `IPB2.FigureStoreManagementSystem.CA` (Console App)
-- Uses `IPB2.FigureStoreManagementSystem.DB` as data reference
-- Menu flow: list/create/update/delete figures + list categories
+- `IPB2.FigureStoreManagementSystem.DB` (DB models/context)
 
-## Projects in solution (for this step)
-- `IPB2.FigureStoreManagementSystem.CA`
-- `IPB2.FigureStoreManagementSystem.DB`
+## Why code was not appearing
+You were resolving an **old PR conflict screen** that still had conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`) on stale files.
 
-We can add the next project (WebApi, MVC, etc.) in the next step.
+To avoid that confusion, this branch now keeps only CA + DB for step 1.
 
 ## Open in Visual Studio
-- Open **`IPB2.FigureStoreManagementSystem.sln`** (for Visual Studio).
-- `*.slnx` is not supported in some Visual Studio versions, so projects may not show there.
-- If GitHub shows `<<<<<<<`, `=======`, `>>>>>>>` in PR conflicts, you must resolve/commit those first or your latest code will not appear locally.
+1. Pull latest code from this branch.
+2. Open: `IPB2.FigureStoreManagementSystem.sln`
+3. Build/run CA project.
+
+If GitHub still shows the old conflict UI, close that old PR and create a fresh PR from the latest branch head.
