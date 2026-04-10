@@ -1,19 +1,20 @@
 # IPB2 Figure Store Management System
 
-This repository is now cleaned for **step-by-step development**.
+Current step is **CA + DB** only.
 
-## Current Step (DONE)
-- `IPB2.FigureStoreManagementSystem.CA` (Console App)
-- `IPB2.FigureStoreManagementSystem.DB` (DB models/context)
+## Important: why you still see conflicts on GitHub
+You are viewing an older PR conflict page that still compares old commits.
+That page can keep showing `<<<<<<< ======= >>>>>>>` until the PR branch is refreshed/rebased.
 
-## Why code was not appearing
-You were resolving an **old PR conflict screen** that still had conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`) on stale files.
+## What to do now
+1. Pull latest branch head.
+2. Open `IPB2.FigureStoreManagementSystem.sln` in Visual Studio.
+3. If PR #2 still shows old conflicts, close it and create a new PR from latest branch head.
 
-To avoid that confusion, this branch now keeps only CA + DB for step 1.
+## Conflict prevention added
+This repo now sets Git merge strategy to `union` for:
+- `README.md`
+- `*.sln`
+- `*.slnx`
 
-## Open in Visual Studio
-1. Pull latest code from this branch.
-2. Open: `IPB2.FigureStoreManagementSystem.sln`
-3. Build/run CA project.
-
-If GitHub still shows the old conflict UI, close that old PR and create a fresh PR from the latest branch head.
+So future merges are less likely to stop on these text-only metadata files.
