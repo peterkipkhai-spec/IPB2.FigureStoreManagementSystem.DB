@@ -1,10 +1,4 @@
 <Solution>
   <Project Path="IPB2.FigureStoreManagementSystem.CA/IPB2.FigureStoreManagementSystem.CA.csproj" />
   <Project Path="IPB2.FigureStoreManagementSystem.DB/IPB2.FigureStoreManagementSystem.DB.csproj" />
-  <Project Path="IPB2.FigureStoreManagementSystem.Domain/IPB2.FigureStoreManagementSystem.Domain.csproj" />
-  <Project Path="IPB2.FigureStoreManagementSystem.MVC/IPB2.FigureStoreManagementSystem.MVC.csproj" />
-  <Project Path="IPB2.FigureStoreManagementSystem.MVCwithHttpClient/IPB2.FigureStoreManagementSystem.MVCwithHttpClient.csproj" />
-  <Project Path="IPB2.FigureStoreManagementSystem.MinimalApi/IPB2.FigureStoreManagementSystem.MinimalApi.csproj" />
-  <Project Path="IPB2.FigureStoreManagementSystem.WebApi/IPB2.FigureStoreManagementSystem.WebApi.csproj" />
-  <Project Path="IPB2.FigureStoreManagementSystem.WinForm/IPB2.FigureStoreManagementSystem.WinForm.csproj" />
 </Solution>
