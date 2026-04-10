@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPB2.FigureStoreManagementSystem.CA", "IPB2.FigureStoreManagementSystem.CA\IPB2.FigureStoreManagementSystem.CA.csproj", "{1F472432-CE44-4AB8-BC4E-79688D7C7F4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPB2.FigureStoreManagementSystem.DB", "IPB2.FigureStoreManagementSystem.DB\IPB2.FigureStoreManagementSystem.DB.csproj", "{BE38057A-4A7E-4D57-93CD-435758EE6AC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F472432-CE44-4AB8-BC4E-79688D7C7F4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F472432-CE44-4AB8-BC4E-79688D7C7F4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F472432-CE44-4AB8-BC4E-79688D7C7F4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F472432-CE44-4AB8-BC4E-79688D7C7F4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE38057A-4A7E-4D57-93CD-435758EE6AC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE38057A-4A7E-4D57-93CD-435758EE6AC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE38057A-4A7E-4D57-93CD-435758EE6AC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE38057A-4A7E-4D57-93CD-435758EE6AC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B1699CA-D740-4868-9D9C-427E4A80880A}
+	EndGlobalSection
+EndGlobal

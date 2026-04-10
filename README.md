@@ -12,3 +12,8 @@ Step-by-step version aligned to your request:
 - `IPB2.FigureStoreManagementSystem.DB`
 
 We can add the next project (WebApi, MVC, etc.) in the next step.
+
+## Open in Visual Studio
+- Open **`IPB2.FigureStoreManagementSystem.sln`** (for Visual Studio).
+- `*.slnx` is not supported in some Visual Studio versions, so projects may not show there.
+- If GitHub shows `<<<<<<<`, `=======`, `>>>>>>>` in PR conflicts, you must resolve/commit those first or your latest code will not appear locally.
