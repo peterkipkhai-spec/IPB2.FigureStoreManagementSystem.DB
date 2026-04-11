@@ -18,3 +18,7 @@ This repo now sets Git merge strategy to `union` for:
 - `*.slnx`
 
 So future merges are less likely to stop on these text-only metadata files.
+
+
+## PR conflict loop fix
+If GitHub still shows old conflict screens, follow `docs/PR_CONFLICT_FIX.md` step-by-step.
